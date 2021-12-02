@@ -1,5 +1,5 @@
 import fs from "fs";
-const text = fs.readFileSync("./input.txt").toString('utf-8');
+const text = fs.readFileSync("./inputD1.txt").toString('utf-8');
 
 const calcWindow = (array, index) => {
     if (index === 0 || index === array.length - 1) {
